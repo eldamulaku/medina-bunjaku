@@ -3,14 +3,7 @@ import profile from '../images/profile.png';
 function Home() {
     return (
         <div className="flex h-screen flex-col md:flex-row">
-           <style>{`
-                @media (min-width: 768px) {
-                    body { overflow: hidden; }
-                }
-                @media (max-width: 767px) {
-                    body { overflow: auto; }
-                }
-            `}</style>
+            <style>{`body { overflow: hidden; }`}</style>
             {/* Left Side */}
             <div className="w-full md:w-1/2 bg-white flex items-center justify-center h-auto md:h-full">
                <img
