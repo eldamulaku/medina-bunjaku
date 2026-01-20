@@ -35,7 +35,7 @@ function NavBar() {
                     <a href="/" className="text-black hover:text-blue-700 transition-colors">Home</a>
                 </li>
                 <li>
-                    <a href="/aboutme" className="text-black hover:text-grey-700 transition-colors">AboutMe</a>
+                    <a href="/aboutme" className="text-black hover:text-blue-700 transition-colors">AboutMe</a>
                 </li>
             </ul>
         </nav>
